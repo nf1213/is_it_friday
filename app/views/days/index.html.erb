@@ -1,0 +1,8 @@
+<h1>Is it Friday yet?</h1>
+
+<% if @it_is_friday %>
+  <h2>YES :D</h2>
+<% else %>
+  <h2>NO! It's <%= @day.name %>.</h2>
+<% end %>
+<p><%= @day.message %></p>
