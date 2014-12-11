@@ -1,7 +1,6 @@
 class DaysController < ApplicationController
 
   def index
-    Time.zone = current_user.time_zone
     @day = Day.find(Time.now.wday + 1)
     @today_is_friday = Time.now.friday?
   end
