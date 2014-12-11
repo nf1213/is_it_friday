@@ -9,7 +9,6 @@ class DaysController < ApplicationController
 
   private
 
-
   # Never trust parameters from the scary internet, only allow the white list through.
   def event_params
     params.require(:days).permit(:name, :message)
