@@ -78,5 +78,5 @@ Rails.application.configure do
 
   config.assets.compile = true
 
-  # config.time_zone = "Eastern Time (US & Canada)"
+  config.time_zone = "Eastern Time (US & Canada)"
 end
